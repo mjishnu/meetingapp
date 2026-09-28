@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="ARM64" />
+  </Configurations>
+  <!-- The app is listed first so Visual Studio picks it as the default startup project. -->
+  <Project Path="MeetingRecorder/MeetingRecorder.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|ARM64" Project="ARM64" />
+  </Project>
+  <Project Path="MeetingRecorder.Core/MeetingRecorder.Core.csproj" />
+</Solution>

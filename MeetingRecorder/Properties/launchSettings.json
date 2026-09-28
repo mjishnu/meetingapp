@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MeetingRecorder (Unpackaged)": {
+      "commandName": "Project"
+    },
+    "MeetingRecorder (Package)": {
+      "commandName": "MsixPackage"
+    }
+  }
+}
